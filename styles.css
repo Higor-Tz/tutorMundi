@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    /*Margem*/
+    margin: 50px;
+    background-color: white;
+  }
+/*Titulo*/
+h1 {
+  margin-inline: 50px;
+  border: 0;
+  font-size:40px;
+  /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+  font-family: 'Londrina Solid';
+    /*color: blue;*/
+  }
+/*Estrelas*/
+.estrela {
+  background: url(desafio-imagens/estrela_vazia.svg);
+  cursor: pointer;
+  border: none;
+  padding: 16.5px;
+  padding-bottom: 15px;
+}
+/* mudança ao selecionar a estrela
+.estrela:active {
+  background: url(desafio-imagens/estrela_cheia.svg);
+}
+*/
+div {
+  padding-bottom: 10px;
+  }
+#pular {
+  /**/
+  height: 200px;
+  background: none;
+  font-weight: bold;
+  font-size: 13px;
+  color:#2CC6D0;
+  border: none;
+  margin-right: 5px;
+}
+.confirmar {
+  font-weight: bold;
+  font-size: 12px;
+  padding: 10px;
+  padding-left: 21px;
+  padding-right: 21px;
+  background-color:#C8C8C8;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+/*
+.confirmar:disabled {
+  background-color:#C8C8C8;
+}
+*/
+/* mudança ao selecionar o confirmar */
+/*
+.confirmar:active {
+  background-color:#2CC6D0;
+}
+*/
