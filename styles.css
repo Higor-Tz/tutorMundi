@@ -1,17 +1,15 @@
 body {
     text-align: center;
     /*Margem*/
-    margin: 50px;
+    margin-top: 50px;
     background-color: white;
   }
 /*Titulo*/
 h1 {
   border: 0;
   font-size:40px;
-  /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
   font-family: 'Londrina Solid';
-    /*color: blue;*/
-  }
+}
 /*Estrelas*/
 .estrela {
   background: url(desafio-imagens/estrela_vazia.svg);
@@ -49,11 +47,6 @@ div {
   border: none;
   border-radius: 20px;
 }
-/*
-.confirmar:disabled {
-  background-color:#C8C8C8;
-}
-*/
 /* mudança ao selecionar o confirmar */
 /*
 .confirmar:active {

@@ -1,9 +1,12 @@
+//Estrelas
 let e1 = document.getElementById('e1');
 let e2 = document.getElementById('e2');
 let e3 = document.getElementById('e3');
 let e4 = document.getElementById('e4');
 let e5 = document.getElementById('e5');
+//botão de confirmar
 let confirmar = document.getElementById('confirm');
+//resultado da avaliação
 var numero = 0;
 
 function uma() {
@@ -56,6 +59,7 @@ function duas() {
     numero = 5;
     }
 
+//impressão do resultado no console
   function print() {
     console.log('A avaliacao feita por este usuario foi de: %d estrelas', numero);
     }
